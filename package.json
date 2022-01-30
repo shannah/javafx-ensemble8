@@ -1,0 +1,23 @@
+{
+  "bin": {"javafx-ensemble": "jdeploy-bundle/jdeploy.js"},
+  "author": "Scott Kovatch",
+  "description": "Ensemble provides a gallery of over 100 sample applications that use a wide range of JavaFX features, such as graphics, UI controls, animation, charts, media and WebView. Source code for each sample and links to API documentation are also provided. Ensemble will provide developers with an interactive reference tool for what they can build with JavaFX.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": "https://github.com/shannah/javafx-ensemble8",
+  "version": "1.0.4",
+  "jdeploy": {
+    "jar": "target/javafx-ensemble8-1.0-SNAPSHOT.jar",
+    "javafx" : true,
+    "javaVersion" : "8",
+    "title" : "JavaFX Ensemble 8"
+  },
+  "dependencies": {
+    "njre": "^0.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "license": "ISC",
+  "name": "jdeploy-demo-javafx-ensemble",
+  "files": ["jdeploy-bundle"],
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}
