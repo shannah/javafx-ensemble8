@@ -56,6 +56,7 @@ import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
@@ -353,6 +354,7 @@ public class EnsembleApp extends Application {
             stage.setHeight(primaryScreenBounds.getHeight());
         }
         stage.setTitle("Ensemble");
+        stage.getIcons().add(new Image(EnsembleApp.class.getResourceAsStream("images/icon.png")));
         stage.show();
     }
 
