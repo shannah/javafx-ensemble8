@@ -5,11 +5,12 @@
     "main": "index.js",
     "preferGlobal": true,
     "repository": "https://github.com/shannah/javafx-ensemble8",
-    "version": "1.0.9",
+    "version": "1.0.19",
     "jdeploy": {
-        "javaVersion": "11",
+        "javaVersion": "19",
         "jar": "target/javafx-ensemble8-1.0-SNAPSHOT.jar",
         "javafx": true,
+        "javafxVersion": "20-ea+11",
         "title": "JavaFX Ensemble 8"
     },
     "dependencies": {
